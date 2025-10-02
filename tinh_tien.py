@@ -3,7 +3,7 @@ def tinh_tien(soVeThuong: int, soVe3D: int, tuoi: int):
         return "Invalid"
     if not (0 <= soVe3D <= 50):
         return "Invalid"  
-    if tuoi <= 0:   # bổ sung kiểm tra tuổi
+    if tuoi <= 0:  
         return "Invalid"
     
     base = soVeThuong * 70000 + soVe3D * 120000 
