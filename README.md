@@ -1,1 +1,1 @@
-# Functional Testing — Week 3
+# Testing
